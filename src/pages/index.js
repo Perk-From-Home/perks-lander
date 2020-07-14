@@ -8,9 +8,9 @@ import SplitSection from '../components/SplitSection';
 import StatsBox from '../components/StatsBox';
 import customerData from '../data/customer-data';
 
-import SvgCharts from '../svg/SvgCharts';
 import HeroImage2 from '../png/HeroImage2';
 import { Settings, Profile, Truck } from '../png/icons';
+import { Diverse, Food, Offers } from '../png/benefits';
 
 export default () => (
   <Layout>
@@ -18,25 +18,25 @@ export default () => (
       <div className="container mx-auto px-8 lg:flex">
         <div className="text-center lg:text-left lg:w-1/2">
           <h1 className="text-4xl lg:text-5xl xl:text-6xl font-bold leading-none">
-            Bringing the best of the office to your home
+            Making work from <span className="text-blue-500"> home </span> work for{' '}
+            <span className="text-blue-500"> you </span>
           </h1>
           <p className="text-xl lg:text-2xl mt-6 font-light">
-            Build custom perk packages to turbocharge employee work from home experience and amplify
-            productivity
+            Build custom perk packages to turbocharge employee satisfaction and amplify productivity
           </p>
           <p className="mt-8 md:mt-12">
             <Button size="lg">Sign Up for Early Access</Button>
           </p>
-          <p className="mt-4 text-gray-600">Sed fermentum felis ut cursu</p>
+          <p className="mt-4 text-gray-600">We will never share your email address</p>
         </div>
         <div className="lg:w-1/2">
           <HeroImage2 />
         </div>
       </div>
     </section>
-    <section id="features" className="py-20 lg:pb-40 lg:pt-48">
+    <section id="features" className="py-20 lg:pb-40 lg:pt-40">
       <div className="container mx-auto text-center">
-        <h2 className="text-3xl lg:text-5xl font-semibold">How does it work?</h2>
+        <h2 className="text-3xl lg:text-5xl font-semibold">How It Works</h2>
         <div className="flex flex-col sm:flex-row sm:-mx-3 mt-12">
           <div className="flex flex-1 px-3">
             <Card className="mb-8">
@@ -74,43 +74,38 @@ export default () => (
       id="services"
       primarySlot={
         <div className="lg:pr-32 xl:pr-48">
-          <h3 className="text-3xl font-semibold leading-tight">Market Analysis</h3>
+          <h3 className="text-3xl font-semibold leading-tight">Happy, healthy, and effective</h3>
           <p className="mt-8 text-xl font-light leading-relaxed">
-            Our team of enthusiastic marketers will analyse and evaluate how your company stacks
-            against the closest competitors
+            Keep employees engaged and motivated with a range of premium food, drink, and exercise
+            options.
           </p>
         </div>
       }
-      secondarySlot={<SvgCharts />}
+      secondarySlot={<Food />}
     />
     <SplitSection
       reverseOrder
       primarySlot={
         <div className="lg:pl-32 xl:pl-48">
-          <h3 className="text-3xl font-semibold leading-tight">
-            Design And Plan Your Business Growth Steps
-          </h3>
+          <h3 className="text-3xl font-semibold leading-tight">Variety is the spice of life</h3>
           <p className="mt-8 text-xl font-light leading-relaxed">
-            Once the market analysis process is completed our staff will search for opportunities
-            that are in reach
+            Not everybody wants kombucha and ping pong tables. Provide perks as diverse as your
+            employees.
           </p>
         </div>
       }
-      secondarySlot={<SvgCharts />}
+      secondarySlot={<Diverse />}
     />
     <SplitSection
       primarySlot={
         <div className="lg:pr-32 xl:pr-48">
-          <h3 className="text-3xl font-semibold leading-tight">
-            Search For Performance Optimization
-          </h3>
+          <h3 className="text-3xl font-semibold leading-tight">Exclusive deals and discounts</h3>
           <p className="mt-8 text-xl font-light leading-relaxed">
-            With all the information in place you will be presented with an action plan that your
-            company needs to follow
+            Access to monthly specials via our partnership network
           </p>
         </div>
       }
-      secondarySlot={<SvgCharts />}
+      secondarySlot={<Offers />}
     />
     <section id="stats" className="py-20 lg:pt-32">
       <div className="container mx-auto text-center">
