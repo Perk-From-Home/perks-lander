@@ -7,8 +7,10 @@ import Layout from '../components/layout/Layout';
 import SplitSection from '../components/SplitSection';
 import StatsBox from '../components/StatsBox';
 import customerData from '../data/customer-data';
-import HeroImage from '../svg/HeroImage';
+
 import SvgCharts from '../svg/SvgCharts';
+import HeroImage2 from '../png/HeroImage2';
+import { Settings, Profile, Truck } from '../png/icons';
 
 export default () => (
   <Layout>
@@ -19,47 +21,49 @@ export default () => (
             Bringing the best of the office to your home
           </h1>
           <p className="text-xl lg:text-2xl mt-6 font-light">
-            Allow your employees to build custom perk packages to turbocharge their work from home
-            experience and amplify their productivity
+            Build custom perk packages to turbocharge employee work from home experience and amplify
+            productivity
           </p>
           <p className="mt-8 md:mt-12">
-            <Button size="lg">Get Started</Button>
+            <Button size="lg">Sign Up for Early Access</Button>
           </p>
           <p className="mt-4 text-gray-600">Sed fermentum felis ut cursu</p>
         </div>
         <div className="lg:w-1/2">
-          <HeroImage />
+          <HeroImage2 />
         </div>
       </div>
     </section>
     <section id="features" className="py-20 lg:pb-40 lg:pt-48">
       <div className="container mx-auto text-center">
-        <h2 className="text-3xl lg:text-5xl font-semibold">Main Features</h2>
+        <h2 className="text-3xl lg:text-5xl font-semibold">How does it work?</h2>
         <div className="flex flex-col sm:flex-row sm:-mx-3 mt-12">
-          <div className="flex-1 px-3">
+          <div className="flex flex-1 px-3">
             <Card className="mb-8">
-              <p className="font-semibold text-xl">Service One</p>
+              <Settings />
+              <p className="font-semibold text-xl">Setup a PFH account for your company</p>
               <p className="mt-4">
-                An enim nullam tempor gravida donec enim ipsum blandit porta justo integer odio
-                velna vitae auctor integer.
+                Choose from a selection of perk providers and set a monthly budget for each of your
+                employees
               </p>
             </Card>
           </div>
-          <div className="flex-1 px-3">
+          <div className="flex flex-1 px-3">
             <Card className="mb-8">
-              <p className="font-semibold text-xl">Service Two</p>
+              <Profile />
+              <p className="font-semibold text-xl">Employees select their package</p>
               <p className="mt-4">
-                An enim nullam tempor gravida donec enim ipsum blandit porta justo integer odio
-                velna vitae auctor integer.
+                Employees select which perks they'd like to receive each month, and we provide
+                vouchers to use with each supplier
               </p>
             </Card>
           </div>
-          <div className="flex-1 px-3">
+          <div className="flex flex-1 px-3">
             <Card className="mb-8">
-              <p className="font-semibold text-xl">Service Three</p>
+              <Truck />
+              <p className="font-semibold text-xl">Enjoy perks delivered to your home</p>
               <p className="mt-4">
-                An enim nullam tempor gravida donec enim ipsum blandit porta justo integer odio
-                velna vitae auctor integer.
+                Our suppliers send perks directly to your employees homes, to enjoy at their leisure
               </p>
             </Card>
           </div>

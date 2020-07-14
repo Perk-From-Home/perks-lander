@@ -14,13 +14,13 @@ const Header = () => (
       </div>
       <div className="flex mt-4 sm:mt-0">
         <AnchorLink className="px-4" href="#features">
-          Features
+          How does it work?
         </AnchorLink>
         <AnchorLink className="px-4" href="#services">
-          Services
+          Our Partners
         </AnchorLink>
         <AnchorLink className="px-4" href="#stats">
-          Stats
+          Benefits
         </AnchorLink>
         <AnchorLink className="px-4" href="#testimonials">
           Testimonials
