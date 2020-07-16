@@ -7,7 +7,7 @@ import Layout from '../components/layout/Layout';
 import SplitSection from '../components/SplitSection';
 
 import customerData from '../data/customer-data';
-
+import { CUSTOMER_GFORM_URL, PARTNER_GFORM_URL } from '../data/external-links';
 import HeroImage2 from '../png/HeroImage2';
 import { Settings, Profile, Truck } from '../png/icons';
 import { Diverse, Food, Community } from '../png/benefits';
@@ -25,7 +25,9 @@ export default () => (
             they love
           </p>
           <p className="mt-8 md:mt-12">
-            <Button size="lg">Sign Up for Early Access</Button>
+            <Button size="lg" href={CUSTOMER_GFORM_URL}>
+              Sign Up for Early Access
+            </Button>
           </p>
           <p className="mt-4 text-gray-600">We will never share your email address</p>
         </div>
@@ -113,7 +115,9 @@ export default () => (
         <p className="text-xl lg:text-2xl mt-6 font-light pb-10 pl-5 pr-5">
           Get in touch to discuss how we can get your awesome products to our fabulous customers
         </p>
-        <Button size="xl">Work with us</Button>
+        <Button size="xl" href={PARTNER_GFORM_URL}>
+          Work with us
+        </Button>
       </div>
     </section>
     <section id="testimonials" className="py-20 lg:py-40">
@@ -132,7 +136,9 @@ export default () => (
       <h3 className="text-5xl font-semibold">Ready to delight your employees?</h3>
       <p className="mt-8 text-xl font-light">Get in touch about our early access program</p>
       <p className="mt-8">
-        <Button size="xl">Get Started Now</Button>
+        <Button size="xl" href={CUSTOMER_GFORM_URL}>
+          Get Started Now
+        </Button>
       </p>
     </section>
   </Layout>

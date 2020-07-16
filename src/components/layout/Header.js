@@ -1,8 +1,10 @@
 import React from 'react';
 import AnchorLink from 'react-anchor-link-smooth-scroll';
-import LogoIcon from '../../svg/LogoIcon';
+
 import { Logo } from '../../png/icons';
 import Button from '../Button';
+
+import { CUSTOMER_GFORM_URL } from '../../data/external-links';
 
 const Header = () => (
   <header className="sticky top-0 bg-white shadow">
@@ -28,7 +30,9 @@ const Header = () => (
         </AnchorLink>
       </div>
       <div className="hidden lg:block">
-        <Button className="text-sm">Start Free Trial</Button>
+        <Button className="text-sm" href={CUSTOMER_GFORM_URL}>
+          Start Free Trial
+        </Button>
       </div>
     </div>
   </header>
