@@ -13,7 +13,6 @@ const Header = () => (
         <div className="w-12 mr-3">
           <Logo />
         </div>
-        Perk From Home
       </div>
       <div className="flex mt-4 :mt-0 md:visible">
         <AnchorLink className="px-4" href="#features">

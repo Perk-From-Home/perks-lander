@@ -2,7 +2,7 @@ import React from 'react';
 import truckIcon from './delivery-truck.png';
 import settingsIcon from './agenda.png';
 import profileIcons from './profile.png';
-import logo from './logo.png';
+import logo from './PFH-logo-square.png';
 
 const Icon = img => <img src={img} className="w-24 mx-auto mb-2" />;
 

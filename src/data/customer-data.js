@@ -1,24 +1,27 @@
 export default [
   {
-    title: 'I left my company because I hated WFH',
-    content: 'I now live in the woods which is great but Lufa do not deliver there, which sucks.',
-    customerName: 'Lucy Skyflower',
-    customerTitle: 'Database Engineer',
-    customerImage: 'https://placeimg.com/150/150/people'
-  },
-  {
-    title: 'If only I had been able to do online yoga I would still work at Google',
-    content: 'I campaigned for WFH perks but resigned in protest when I was denied them.',
-    customerName: 'John Doe',
-    customerTitle: 'SVP, Android',
-    customerImage: 'https://placeimg.com/150/150/people'
-  },
-  {
-    title: 'Discounted coffee subscriptions are key for me',
+    title: 'The best thing since the iPhone',
     content:
-      "I don't think I could ever contemplate working for somebody who didn't appreciate the different between Arabica and Robusta",
-    customerName: 'Hispta Fixie',
-    customerTitle: 'Style Guru and Bike Mechanic',
-    customerImage: 'https://placeimg.com/150/150/people'
+      "There's no doubt in my mind that great work and great perks go hand in hand. If you want to Think Different, you need to be well hydrated with stable blood sugar and a strong Warrior pose.",
+    customerName: 'Steve Jobs',
+    customerTitle: 'Visionary',
+    customerImage:
+      'https://image.uniqlo.com/UQ/ST3/WesternCommon/imagesgoods/173217/item/goods_09_173217.jpg?width=734'
+  },
+  {
+    title: 'My favourite pistachios, delivered to my palazzo',
+    content:
+      'Every Italian knows that food and drink is the foundation upon which a happy life and a successful career is built. I appreciate being able to choose the age of the parmesan I have delivered.',
+    customerName: 'Leonardo da Vinci',
+    customerTitle: 'Inventor and artist',
+    customerImage: 'https://bhavanajagat.files.wordpress.com/2010/05/vitruvian-man.jpg?w=640'
+  },
+  {
+    title: 'The best perk experience in the solar system',
+    content:
+      "Believe me when I say that I've eaten a lot of food from packets, and there's none better than Perk From Home's. You simply have to try Kombucha in zero-gravity.",
+    customerName: 'Neil Armstrong',
+    customerTitle: 'First man on the moon',
+    customerImage: 'https://cdn.mos.cms.futurecdn.net/SYNFvhA5XoBB6L6ScwzWk4.jpg'
   }
 ];
