@@ -6,14 +6,14 @@ import Button from '../Button';
 
 const Header = () => (
   <header className="sticky top-0 bg-white shadow">
-    <div className="container flex flex-col sm:flex-row justify-between items-center mx-auto py-4 px-8">
+    <div className="container flex flex-col lg:flex-row justify-between items-center mx-auto py-4 px-8">
       <div className="flex items-center text-2xl">
         <div className="w-12 mr-3">
           <Logo />
         </div>
         Perk From Home
       </div>
-      <div className="flex mt-4 sm:mt-0">
+      <div className="flex mt-4 :mt-0 md:visible">
         <AnchorLink className="px-4" href="#features">
           How It Works
         </AnchorLink>
@@ -27,7 +27,7 @@ const Header = () => (
           Testimonials
         </AnchorLink>
       </div>
-      <div className="hidden md:block">
+      <div className="hidden lg:block">
         <Button className="text-sm">Start Free Trial</Button>
       </div>
     </div>
