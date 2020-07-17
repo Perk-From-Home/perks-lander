@@ -9,12 +9,13 @@ import { CUSTOMER_GFORM_URL } from '../../data/external-links';
 const Header = () => (
   <header className="sticky top-0 bg-white shadow">
     <div className="container flex flex-col lg:flex-row justify-between items-center mx-auto py-4 px-8">
-      <div className="flex items-center text-2xl">
-        <div className="w-12 mr-3">
+      <div className="flex-col lg:flex">
+        <div className="object-center text-center">
           <Logo />
         </div>
+        <div className="flex text-2xl lg:pl-0">Perk From Home</div>
       </div>
-      <div className="flex mt-4 :mt-0 md:visible">
+      <div className="flex mt-4 :mt-0 md:visible pb-4">
         <AnchorLink className="px-4" href="#features">
           How It Works
         </AnchorLink>
