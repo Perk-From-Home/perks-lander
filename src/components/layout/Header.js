@@ -8,24 +8,23 @@ import { CUSTOMER_GFORM_URL } from '../../data/external-links';
 
 const Header = () => (
   <header className="sticky top-0 bg-white shadow">
+    <div style={{ margin: '0 auto' }}></div>
     <div className="container flex flex-col lg:flex-row justify-between items-center mx-auto py-4 px-8">
-      <div className="flex-col lg:flex">
-        <div className="object-center text-center">
-          <Logo />
-        </div>
-        <div className="flex text-2xl lg:pl-0">Perk From Home</div>
+      <div className="text-2xl lg:pl-0 text-center">
+        <Logo />
       </div>
-      <div className="flex mt-4 :mt-0 md:visible pb-4">
-        <AnchorLink className="px-4" href="#features">
+
+      <div className="flex mt-4 :mt-0 md:visible pb-4 ">
+        <AnchorLink className="px-4 text-black" href="#features">
           How It Works
         </AnchorLink>
-        <AnchorLink className="px-4" href="#services">
+        <AnchorLink className="px-4 text-black" href="#services">
           Benefits
         </AnchorLink>
-        <AnchorLink className="px-4" href="#stats">
+        <AnchorLink className="px-4 text-black" href="#stats">
           Our Partners
         </AnchorLink>
-        <AnchorLink className="px-4" href="#testimonials">
+        <AnchorLink className="px-4 text-black" href="#testimonials">
           Testimonials
         </AnchorLink>
       </div>
