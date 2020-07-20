@@ -10,8 +10,6 @@ https://gatsby-lander.surge.sh/
 
 ## Installation
 
-Install this starter (assuming Gatsby is installed) by running from your CLI:
-<br/>
-`gatsby new gatsby-starter-lander https://github.com/codebushi/gatsby-starter-lander`
-
-Run `gatsby develop` in the terminal to start the dev site.
+Install [Gatsby](https://www.gatsbyjs.org/tutorial/part-zero/).<br>
+Run `npm install`.<br>
+Run `gatsby develop` in the terminal to start the dev site.<br>
