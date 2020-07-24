@@ -6,6 +6,7 @@ import LabelText from '../components/LabelText';
 import Layout from '../components/layout/Layout';
 import SplitSection from '../components/SplitSection';
 import SEO from '../components/seo';
+import Helmet from 'react-helmet';
 
 import customerData from '../data/customer-data';
 import { CUSTOMER_GFORM_URL, PARTNER_GFORM_URL } from '../data/external-links';
@@ -15,6 +16,9 @@ import { Diverse, Food, Community } from '../png/benefits';
 
 export default () => (
   <Layout>
+    <Helmet>
+      <meta name="google-site-verification" content="MZ3s6oqcLLEq2YwnZkN7DFuijltSrJ4JmEZ4No8t0EU" />
+    </Helmet>
     <SEO
       title="Perk From Home"
       description="Bringing office perks to WFH employees for better productivity, engagement, and satisfaction"
