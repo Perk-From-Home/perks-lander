@@ -5,6 +5,7 @@ import CustomerCard from '../components/CustomerCard';
 import LabelText from '../components/LabelText';
 import Layout from '../components/layout/Layout';
 import SplitSection from '../components/SplitSection';
+import SEO from '../components/seo';
 
 import customerData from '../data/customer-data';
 import { CUSTOMER_GFORM_URL, PARTNER_GFORM_URL } from '../data/external-links';
@@ -14,6 +15,10 @@ import { Diverse, Food, Community } from '../png/benefits';
 
 export default () => (
   <Layout>
+    <SEO
+      title="Perk From Home"
+      description="Bringing office perks to WFH employees for better productivity, engagement, and satisfaction"
+    />
     <section className="pt-20 md:pt-40">
       <div className="container mx-auto px-8 lg:flex">
         <div className="text-center lg:text-left lg:w-1/2">
