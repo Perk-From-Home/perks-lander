@@ -7,6 +7,7 @@ import Layout from '../components/layout/Layout';
 import SplitSection from '../components/SplitSection';
 import SEO from '../components/seo';
 import Helmet from 'react-helmet';
+import { SocialIcon } from 'react-social-icons';
 
 import customerData from '../data/customer-data';
 import { CUSTOMER_GFORM_URL, PARTNER_GFORM_URL } from '../data/external-links';
@@ -149,6 +150,23 @@ export default () => (
           Get Started Now
         </Button>
       </p>
+    </section>
+    <section id="contact" className="py-5 lg:py-5">
+      <div className="container mx-auto">
+        <LabelText className="mb-8 text-gray-600 text-center">Contact</LabelText>
+        <div className="flex flex-row mt-16">
+          <div className="flex flex-col justify-center flex-1 text-center">
+            <p className="mb-3 text-gray-600">Reach out</p>
+            <p className="mb-3">info@perkfromhome.ca</p>
+          </div>
+            <div className="container justify-center flex-1 text-center">
+              <p className="mb-3 text-gray-600">Follow us</p>
+              <SocialIcon url="https://twitter.com/PerkFromHomeMTL" className="mx-1" />
+              <SocialIcon url="https://www.facebook.com/Perk-From-Home-106639477807436" className="mx-1" />
+              <SocialIcon url="https://www.linkedin.com/company/68685189/" className="mx-1" />
+            </div>
+        </div>
+      </div>
     </section>
   </Layout>
 );
