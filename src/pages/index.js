@@ -155,11 +155,11 @@ export default () => (
       <div className="container mx-auto">
         <LabelText className="mb-8 text-gray-600 text-center">Contact</LabelText>
         <div className="flex flex-row mt-16">
-          <div className="flex flex-col justify-center flex-1 text-center">
+          <div className="flex flex-col flex-1 text-center">
             <p className="mb-3 text-gray-600">Reach out</p>
             <p className="mb-3">info@perkfromhome.ca</p>
           </div>
-            <div className="container justify-center flex-1 text-center">
+            <div className="container flex-1 text-center">
               <p className="mb-3 text-gray-600">Follow us</p>
               <SocialIcon url="https://twitter.com/PerkFromHomeMTL" className="mx-1" />
               <SocialIcon url="https://www.facebook.com/Perk-From-Home-106639477807436" className="mx-1" />

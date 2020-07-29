@@ -8,20 +8,18 @@ const Footer = () => (
       </div>
     </div>
     <div className="py-2">
-      Icons made by{' '}
+      Icons from{' '}
       <a href="https://www.flaticon.com/authors/freepik" title="Freepik">
         Freepik{' '}
       </a>
-      from{' '}
+      hosted on{' '}
       <a href="https://www.flaticon.com/" title="Flaticon">
-        www.flaticon.com
+        Flaticon
       </a>
-      <div className="py-2">
-        <span> Illustrations from </span>
+        , illustrations from{' '}
         <a href="http://blush.design" title="Flaticon">
           Blush
         </a>
-      </div>
     </div>
   </footer>
 );

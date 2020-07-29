@@ -27,9 +27,6 @@ const Header = () => (
         <AnchorLink className="px-4 text-black text-center p-1" href="#testimonials">
           Testimonials
         </AnchorLink>
-        <AnchorLink className="px-4 text-black text-center p-1" href="#contact">
-          Contact
-        </AnchorLink>
       </div>
       <div className="hidden lg:block">
         <Button className="text-sm" href={CUSTOMER_GFORM_URL}>
