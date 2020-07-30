@@ -13,6 +13,7 @@ import customerData from '../data/customer-data';
 import { CUSTOMER_GFORM_URL, PARTNER_GFORM_URL } from '../data/external-links';
 import HeroImage2 from '../png/HeroImage2';
 import { Settings, Profile, Truck } from '../png/icons';
+import { OatboxLogo, EviveLogo, LunaYogaLogo, BlumeLogo, SoulRoastersLogo, BalticClubLogo, RoastersPackLogo, DispatchLogo, FreshMTLLogo } from "../png/supplierLogos";
 import { Diverse, Food, Community } from '../png/benefits';
 
 export default () => (
@@ -119,10 +120,21 @@ export default () => (
     />
     <section id="stats" className="py-20 lg:pt-32">
       <div className="container mx-auto text-center">
-        <LabelText className="mb-8 text-gray-600 text-center ">
-          We're actively building our network of suppliers
+        <LabelText className="mb-8 text-xl text-gray-600 text-center">
+          We're actively looking to add to our network of great suppliers!
         </LabelText>
-        <p className="text-xl lg:text-2xl mt-6 font-light pb-10 pl-5 pr-5">
+          <div className="flex flex-row justify-center">
+            <OatboxLogo/>
+            <EviveLogo/>
+            <DispatchLogo/>
+            <RoastersPackLogo/>
+	    <LunaYogaLogo/>
+	    <BlumeLogo/>
+	    <SoulRoastersLogo/>
+            <FreshMTLLogo/>
+	    <BalticClubLogo/>
+          </div>
+        <p className="text-lg mt-12 font-light pb-10 pl-5 pr-5">
           Get in touch to discuss how we can get your awesome products to our fabulous customers
         </p>
         <Button size="xl" href={PARTNER_GFORM_URL}>
@@ -132,7 +144,7 @@ export default () => (
     </section>
     <section id="testimonials" className="py-20 lg:py-40">
       <div className="container mx-auto">
-        <LabelText className="mb-8 text-gray-600 text-center">What customers are saying</LabelText>
+        <LabelText className="mb-8 text-xl text-gray-600 text-center">What customers are saying</LabelText>
         <div className="flex flex-col md:flex-row md:-mx-3">
           {customerData.map(customer => (
             <div key={customer.customerName} className="flex-1 px-3 flex">
@@ -153,8 +165,8 @@ export default () => (
     </section>
     <section id="contact" className="py-5 lg:py-5">
       <div className="container mx-auto">
-        <LabelText className="mb-8 text-gray-600 text-center">Contact</LabelText>
-        <div className="flex flex-row mt-16">
+        <LabelText className="mb-4 text-xl text-gray-600 text-center">Contact</LabelText>
+        <div className="flex flex-row mt-8">
           <div className="flex flex-col flex-1 text-center">
             <p className="mb-3 text-gray-600">Reach out</p>
             <p className="mb-3">info@perkfromhome.ca</p>
