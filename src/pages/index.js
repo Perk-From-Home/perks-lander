@@ -132,7 +132,7 @@ export default () => (
     <section id="stats" className="py-20 lg:pt-32">
       <div className="container mx-auto text-center mx-20">
         <LabelText className="mb-8 text-xl text-gray-600 text-center">
-          Intersted in joining our network of superstar suppliers?
+          Interested in joining our network of superstar suppliers?
         </LabelText>
         <div className="flex flex-row justify-center">
           <OatboxLogo />
