@@ -134,25 +134,25 @@ export default () => (
         <LabelText className="mb-8 text-xl text-gray-600 text-center">
           Interested in joining our network of superstar suppliers?
         </LabelText>
-        <div className="flex flex-row justify-center">
+        <div className="flex flex-row justify-center h-40 md:h-56 p-4">
           <OatboxLogo />
           <EviveLogo />
           <DispatchLogo />
         </div>
-        <div className="flex md:flex-row justify-center">
+        <div className="flex md:flex-row justify-center h-40 md:h-56 p-4">
           <NakedSnacksLogo />
           <RoastersPackLogo />
           <LunaYogaLogo />
         </div>
-        <div className="flex md:flex-row justify-center">
+        <div className="flex md:flex-row justify-center h-40 md:h-56 p-4">
           <BlumeLogo />
           <SoulRoastersLogo />
           <FreshMTLLogo />
         </div>
-        <div className="flex md:flex-row justify-center">
+        <div className="flex md:flex-row justify-center h-40 md:h-56 p-4">
           <BalticClubLogo />
         </div>
-        <p className="text-lg mt-12 font-light pb-10 pl-5 pr-5">
+        <p className="text-lg mt-12 font-light p-10 pl-5 pr-5">
           Get in touch to discuss how we can get your awesome products to our fabulous customers
         </p>
         <Button size="xl" href={PARTNER_GFORM_URL}>
