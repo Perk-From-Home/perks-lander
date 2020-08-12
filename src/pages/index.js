@@ -13,7 +13,18 @@ import customerData from '../data/customer-data';
 import { CUSTOMER_GFORM_URL, PARTNER_GFORM_URL } from '../data/external-links';
 import HeroImage2 from '../png/HeroImage2';
 import { Settings, Profile, Truck } from '../png/icons';
-import { NakedSnacksLogo, OatboxLogo, EviveLogo, LunaYogaLogo, BlumeLogo, SoulRoastersLogo, BalticClubLogo, RoastersPackLogo, DispatchLogo, FreshMTLLogo } from "../png/supplierLogos";
+import {
+  NakedSnacksLogo,
+  OatboxLogo,
+  EviveLogo,
+  LunaYogaLogo,
+  BlumeLogo,
+  SoulRoastersLogo,
+  BalticClubLogo,
+  RoastersPackLogo,
+  DispatchLogo,
+  FreshMTLLogo
+} from '../png/supplierLogos';
 import { Diverse, Food, Community } from '../png/benefits';
 
 export default () => (
@@ -119,22 +130,28 @@ export default () => (
       secondarySlot={<Community />}
     />
     <section id="stats" className="py-20 lg:pt-32">
-      <div className="container mx-auto text-center">
+      <div className="container mx-auto text-center mx-20">
         <LabelText className="mb-8 text-xl text-gray-600 text-center">
-          We're actively looking to add to our network of great suppliers!
+          Intersted in joining our network of superstar suppliers?
         </LabelText>
-          <div className="flex flex-row justify-center">
-            <OatboxLogo/>
-            <EviveLogo/>
-            <DispatchLogo/>
-            <NakedSnacksLogo/>
-            <RoastersPackLogo/>
-	    <LunaYogaLogo/>
-	    <BlumeLogo/>
-	    <SoulRoastersLogo/>
-            <FreshMTLLogo/>
-	    <BalticClubLogo/>
-          </div>
+        <div className="flex flex-row justify-center">
+          <OatboxLogo />
+          <EviveLogo />
+          <DispatchLogo />
+        </div>
+        <div className="flex md:flex-row justify-center">
+          <NakedSnacksLogo />
+          <RoastersPackLogo />
+          <LunaYogaLogo />
+        </div>
+        <div className="flex md:flex-row justify-center">
+          <BlumeLogo />
+          <SoulRoastersLogo />
+          <FreshMTLLogo />
+        </div>
+        <div className="flex md:flex-row justify-center">
+          <BalticClubLogo />
+        </div>
         <p className="text-lg mt-12 font-light pb-10 pl-5 pr-5">
           Get in touch to discuss how we can get your awesome products to our fabulous customers
         </p>
@@ -145,7 +162,9 @@ export default () => (
     </section>
     <section id="testimonials" className="py-20 lg:py-40">
       <div className="container mx-auto">
-        <LabelText className="mb-8 text-xl text-gray-600 text-center">What customers are saying</LabelText>
+        <LabelText className="mb-8 text-xl text-gray-600 text-center">
+          What customers are saying
+        </LabelText>
         <div className="flex flex-col md:flex-row md:-mx-3">
           {customerData.map(customer => (
             <div key={customer.customerName} className="flex-1 px-3 flex">
@@ -172,12 +191,15 @@ export default () => (
             <p className="mb-3 text-gray-600">Reach out</p>
             <p className="mb-3">info@perkfromhome.ca</p>
           </div>
-            <div className="container flex-1 text-center">
-              <p className="mb-3 text-gray-600">Follow us</p>
-              <SocialIcon url="https://twitter.com/PerkFromHomeMTL" className="mx-1" />
-              <SocialIcon url="https://www.facebook.com/Perk-From-Home-106639477807436" className="mx-1" />
-              <SocialIcon url="https://www.linkedin.com/company/68685189/" className="mx-1" />
-            </div>
+          <div className="container flex-1 text-center">
+            <p className="mb-3 text-gray-600">Follow us</p>
+            <SocialIcon url="https://twitter.com/PerkFromHomeMTL" className="mx-1" />
+            <SocialIcon
+              url="https://www.facebook.com/Perk-From-Home-106639477807436"
+              className="mx-1"
+            />
+            <SocialIcon url="https://www.linkedin.com/company/68685189/" className="mx-1" />
+          </div>
         </div>
       </div>
     </section>
