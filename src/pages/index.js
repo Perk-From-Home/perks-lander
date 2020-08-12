@@ -13,7 +13,7 @@ import customerData from '../data/customer-data';
 import { CUSTOMER_GFORM_URL, PARTNER_GFORM_URL } from '../data/external-links';
 import HeroImage2 from '../png/HeroImage2';
 import { Settings, Profile, Truck } from '../png/icons';
-import { OatboxLogo, EviveLogo, LunaYogaLogo, BlumeLogo, SoulRoastersLogo, BalticClubLogo, RoastersPackLogo, DispatchLogo, FreshMTLLogo } from "../png/supplierLogos";
+import { NakedSnacksLogo, OatboxLogo, EviveLogo, LunaYogaLogo, BlumeLogo, SoulRoastersLogo, BalticClubLogo, RoastersPackLogo, DispatchLogo, FreshMTLLogo } from "../png/supplierLogos";
 import { Diverse, Food, Community } from '../png/benefits';
 
 export default () => (
@@ -127,6 +127,7 @@ export default () => (
             <OatboxLogo/>
             <EviveLogo/>
             <DispatchLogo/>
+            <NakedSnacksLogo/>
             <RoastersPackLogo/>
 	    <LunaYogaLogo/>
 	    <BlumeLogo/>

@@ -8,6 +8,7 @@ import soulRoastersLogo from './supplier-logos/soul-roasters.png';
 import lunaYogaLogo from './supplier-logos/luna-yoga.png';
 import eviveLogo from './supplier-logos/evive.png';
 import oatboxLogo from './supplier-logos/oatbox.png';
+import nakedSnacksLogo from './supplier-logos/naked-snacks.png';
 
 const SupplierLogo = (img, alt, href) => (
     <a href={href} target="_blank">
@@ -25,4 +26,5 @@ const SoulRoastersLogo = () => SupplierLogo(soulRoastersLogo, 'SoulRoasters', 'h
 const LunaYogaLogo = () => SupplierLogo(lunaYogaLogo, 'LunaYoga', 'https://www.lunayoga.ca/');
 const EviveLogo = () => SupplierLogo(eviveLogo, 'Evive', 'https://en.evivesmoothie.com/');
 const OatboxLogo = () => SupplierLogo(oatboxLogo, 'Oatbox', 'https://www.oatbox.com/');
-export { EviveLogo, OatboxLogo, LunaYogaLogo, DispatchLogo, FreshMTLLogo, RoastersPackLogo , BalticClubLogo, BlumeLogo, SoulRoastersLogo };
+const NakedSnacksLogo = () => SupplierLogo(nakedSnacksLogo, 'Naked Snacks', 'https://www.nakedsnacks.ca/');
+export { NakedSnacksLogo, EviveLogo, OatboxLogo, LunaYogaLogo, DispatchLogo, FreshMTLLogo, RoastersPackLogo , BalticClubLogo, BlumeLogo, SoulRoastersLogo };
