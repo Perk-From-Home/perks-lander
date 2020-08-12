@@ -189,7 +189,9 @@ export default () => (
         <div className="flex flex-row mt-8">
           <div className="flex flex-col flex-1 text-center">
             <p className="mb-3 text-gray-600">Reach out</p>
-            <p className="mb-3">info@perkfromhome.ca</p>
+            <p className="mb-3">
+              <a href="mailto:info@perkfromhome.ca">info@perkfromhome.ca</a>
+            </p>
           </div>
           <div className="container flex-1 text-center">
             <p className="mb-3 text-gray-600">Follow us</p>
