@@ -9,6 +9,7 @@ import lunaYogaLogo from './supplier-logos/luna-yoga.png';
 import eviveLogo from './supplier-logos/evive.png';
 import oatboxLogo from './supplier-logos/oatbox.png';
 import nakedSnacksLogo from './supplier-logos/naked-snacks.png';
+import kittelLogo from './supplier-logos/kittel.png';
 
 const SupplierLogo = (img, alt, href) => (
   <div className="flex md:w-1/6 w-1/3">
@@ -33,7 +34,10 @@ const EviveLogo = () => SupplierLogo(eviveLogo, 'Evive', 'https://en.evivesmooth
 const OatboxLogo = () => SupplierLogo(oatboxLogo, 'Oatbox', 'https://www.oatbox.com/');
 const NakedSnacksLogo = () =>
   SupplierLogo(nakedSnacksLogo, 'Naked Snacks', 'https://www.nakedsnacks.ca/');
+const KittelLogo = () => SupplierLogo(kittelLogo, 'Kittel', 'https://kittelcoffee.com/?locale=en');
+
 export {
+  KittelLogo,
   NakedSnacksLogo,
   EviveLogo,
   OatboxLogo,

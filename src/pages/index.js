@@ -14,6 +14,7 @@ import { CUSTOMER_GFORM_URL, PARTNER_GFORM_URL } from '../data/external-links';
 import HeroImage2 from '../png/HeroImage2';
 import { Settings, Profile, Truck } from '../png/icons';
 import {
+  KittelLogo,
   NakedSnacksLogo,
   OatboxLogo,
   EviveLogo,
@@ -137,20 +138,21 @@ export default () => (
         <div className="flex flex-row justify-center h-40 md:h-56 p-4">
           <OatboxLogo />
           <EviveLogo />
-          <DispatchLogo />
+          <KittelLogo/>
         </div>
         <div className="flex md:flex-row justify-center h-40 md:h-56 p-4">
-          <NakedSnacksLogo />
+          <DispatchLogo />
           <RoastersPackLogo />
           <LunaYogaLogo />
         </div>
         <div className="flex md:flex-row justify-center h-40 md:h-56 p-4">
+          <NakedSnacksLogo />
           <BlumeLogo />
           <SoulRoastersLogo />
-          <FreshMTLLogo />
         </div>
         <div className="flex md:flex-row justify-center h-40 md:h-56 p-4">
           <BalticClubLogo />
+          <FreshMTLLogo />
         </div>
         <p className="text-lg mt-12 font-light p-10 pl-5 pr-5">
           Get in touch to discuss how we can get your awesome products to our fabulous customers
