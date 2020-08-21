@@ -162,20 +162,6 @@ export default () => (
         </Button>
       </div>
     </section>
-    <section id="testimonials" className="py-20 lg:py-40">
-      <div className="container mx-auto">
-        <LabelText className="mb-8 text-xl text-gray-600 text-center">
-          What customers are saying
-        </LabelText>
-        <div className="flex flex-col md:flex-row md:-mx-3">
-          {customerData.map(customer => (
-            <div key={customer.customerName} className="flex-1 px-3 flex">
-              <CustomerCard customer={customer} />
-            </div>
-          ))}
-        </div>
-      </div>
-    </section>
     <section className="container mx-auto my-20 py-24 bg-gray-200 rounded-lg text-center">
       <h3 className="text-5xl font-semibold">Ready to delight your employees?</h3>
       <p className="mt-8 text-xl font-light">Get in touch about our early access program</p>
