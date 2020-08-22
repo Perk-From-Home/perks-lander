@@ -11,6 +11,12 @@ module.exports = {
         tailwindConfig: `tailwind.config.js`
       }
     },
+    {
+      resolve: `gatsby-plugin-google-analytics`,
+      options: {
+        trackingId: 'UA-176049307-1'
+      }
+    },
     `gatsby-plugin-react-helmet`
   ]
 };
