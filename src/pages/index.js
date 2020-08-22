@@ -138,7 +138,7 @@ export default () => (
         <div className="flex flex-row justify-center h-40 md:h-56 p-4">
           <OatboxLogo />
           <EviveLogo />
-          <KittelLogo/>
+          <KittelLogo />
         </div>
         <div className="flex md:flex-row justify-center h-40 md:h-56 p-4">
           <DispatchLogo />
